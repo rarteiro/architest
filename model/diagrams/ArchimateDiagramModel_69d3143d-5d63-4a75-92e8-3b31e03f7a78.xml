@@ -1,4 +1,40 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Default View"
-    id="69d3143d-5d63-4a75-92e8-3b31e03f7a78"/>
+    id="69d3143d-5d63-4a75-92e8-3b31e03f7a78">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="26afc5ed-ab33-4881-8e56-2da41320cd77"
+      targetConnections="ed8cde74-a878-44b4-9a72-eb9f667bfe1e">
+    <bounds
+        x="274"
+        y="113"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_c350b2e8-0816-4ded-8a1b-4be31e686913.xml#c350b2e8-0816-4ded-8a1b-4be31e686913"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="1e442ba1-f2fa-4fe7-8a8c-e07ecc217e85">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="ed8cde74-a878-44b4-9a72-eb9f667bfe1e"
+        source="1e442ba1-f2fa-4fe7-8a8c-e07ecc217e85"
+        target="26afc5ed-ab33-4881-8e56-2da41320cd77">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_238ba1a7-4ac9-49d1-a41d-0ec70afa1545.xml#238ba1a7-4ac9-49d1-a41d-0ec70afa1545"/>
+    </sourceConnections>
+    <bounds
+        x="492"
+        y="295"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationService"
+        href="ApplicationService_c0a1d58d-e574-40b2-a7af-0cdb71eaadb6.xml#c0a1d58d-e574-40b2-a7af-0cdb71eaadb6"/>
+  </children>
+</archimate:ArchimateDiagramModel>
